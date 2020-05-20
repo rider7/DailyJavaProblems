@@ -30,3 +30,5 @@ Notes: Use length - 1 so you do not get an out of bounds exception.
 stream(arr).filter(v -> v > 0) allows you to go through each element in the array that match the predicate in .filter()
 in this case, meaning each element that is greater than 0 (positive). The .sum() then is called on each element that was filtered
 from the array into the stream.
+
+-----------------------------------------
